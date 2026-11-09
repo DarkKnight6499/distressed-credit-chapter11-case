@@ -1,0 +1,1592 @@
+{
+  "capital_structure": [
+    {
+      "id": "abl_total",
+      "tranche": "ABL aggregate (control only)",
+      "class": "3A/3B",
+      "petition_principal_mm": 424.3,
+      "model_claim_mm": null,
+      "rank": null,
+      "maturity": "2026-02-19",
+      "coupon": "See revolver and FILO",
+      "security": "First lien on ABL collateral; second lien on other collateral",
+      "source_ids": [
+        "F02",
+        "F07"
+      ]
+    },
+    {
+      "id": "revolver",
+      "tranche": "ABL revolver",
+      "class": "3A",
+      "petition_principal_mm": null,
+      "model_claim_mm": 407.282561,
+      "rank": 1,
+      "maturity": "2026-02-19",
+      "coupon": "Adjusted Term SOFR + 1.50%-1.75% or ABR + 0.50%-0.75%",
+      "security": "ABL collateral first lien; other collateral second lien",
+      "source_ids": [
+        "F07",
+        "F14",
+        "F16",
+        "F17"
+      ]
+    },
+    {
+      "id": "filo",
+      "tranche": "ABL FILO",
+      "class": "3B",
+      "petition_principal_mm": null,
+      "model_claim_mm": 17.1105,
+      "rank": 2,
+      "maturity": "2026-02-19",
+      "coupon": "Adjusted Term SOFR + 2.75% or ABR + 1.75%",
+      "security": "First-in last-out within ABL; model places after revolver",
+      "source_ids": [
+        "F07",
+        "F15",
+        "F16",
+        "F18"
+      ]
+    },
+    {
+      "id": "secured_float",
+      "tranche": "Secured floating notes",
+      "class": "4",
+      "petition_principal_mm": 161.7,
+      "model_claim_mm": 161.7,
+      "rank": 3,
+      "maturity": "2025-07-15",
+      "coupon": "6m LIBOR + 5.00%; LIBOR floor 0.75%",
+      "security": "Other collateral first lien; ABL collateral second lien; pari passu with fixed notes",
+      "source_ids": [
+        "F03",
+        "F08",
+        "F13"
+      ]
+    },
+    {
+      "id": "secured_fixed",
+      "tranche": "Secured fixed notes",
+      "class": "4",
+      "petition_principal_mm": 750,
+      "model_claim_mm": 750,
+      "rank": 3,
+      "maturity": "2026-02-15",
+      "coupon": "8.750%",
+      "security": "Same liens and rank as floating notes",
+      "source_ids": [
+        "F04",
+        "F09",
+        "F12"
+      ]
+    },
+    {
+      "id": "unsecured_2023",
+      "tranche": "Unsecured 2023 notes",
+      "class": "5",
+      "petition_principal_mm": 22.9,
+      "model_claim_mm": 22.9,
+      "rank": 4,
+      "maturity": "2023-08-15",
+      "coupon": "6.125%",
+      "security": "Senior unsecured; model pari passu with unsecured 2026 notes",
+      "source_ids": [
+        "F05",
+        "F10"
+      ]
+    },
+    {
+      "id": "unsecured_2026",
+      "tranche": "Unsecured 2026 notes",
+      "class": "5",
+      "petition_principal_mm": 92.3,
+      "model_claim_mm": 92.3,
+      "rank": 4,
+      "maturity": "2026-08-01",
+      "coupon": "6.625%",
+      "security": "Senior unsecured",
+      "source_ids": [
+        "F06",
+        "F11"
+      ]
+    }
+  ],
+  "plan_recoveries": [
+    {
+      "class": "1",
+      "name": "Other secured",
+      "low": 1,
+      "high": 1,
+      "impairment": "Unimpaired",
+      "treatment": "Cash, reinstatement or permitted alternative",
+      "figure_id": "F20"
+    },
+    {
+      "class": "2",
+      "name": "Other priority",
+      "low": 1,
+      "high": 1,
+      "impairment": "Unimpaired",
+      "treatment": "Cash or statutory treatment",
+      "figure_id": "F20"
+    },
+    {
+      "class": "3A",
+      "name": "ABL revolver",
+      "low": 1,
+      "high": 1,
+      "impairment": "Impaired",
+      "treatment": "Takeback or exit refinancing",
+      "figure_id": "F20"
+    },
+    {
+      "class": "3B",
+      "name": "ABL FILO",
+      "low": 1,
+      "high": 1,
+      "impairment": "Impaired",
+      "treatment": "Takeback or exit refinancing",
+      "figure_id": "F20"
+    },
+    {
+      "class": "4",
+      "name": "Secured notes",
+      "low": 0,
+      "high": 0.076,
+      "impairment": "Impaired",
+      "treatment": "Diluted equity and subscription rights",
+      "figure_id": "F21"
+    },
+    {
+      "class": "5",
+      "name": "General unsecured",
+      "low": 0.01,
+      "high": 0.025,
+      "impairment": "Impaired",
+      "treatment": "GUC Recovery Pool",
+      "figure_id": "F23"
+    },
+    {
+      "class": "6",
+      "name": "Intercompany claims",
+      "low": null,
+      "high": null,
+      "impairment": "Unimpaired / Impaired",
+      "treatment": "Reinstate or cancel",
+      "figure_id": "F24"
+    },
+    {
+      "class": "7",
+      "name": "Intercompany interests",
+      "low": null,
+      "high": null,
+      "impairment": "Unimpaired / Impaired",
+      "treatment": "Reinstate or cancel",
+      "figure_id": "F24"
+    },
+    {
+      "class": "8",
+      "name": "PCHI interests",
+      "low": 0,
+      "high": 0,
+      "impairment": "Impaired",
+      "treatment": "Cancel, no distribution",
+      "figure_id": "F24"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2023-01-17",
+      "event": "Petition and RSA",
+      "detail": "Voluntary filing and support agreement",
+      "source_id": "S05",
+      "section": "Item 1.01",
+      "figure_ids": [
+        "F01",
+        "F33"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/1592058/000119312523009847/d643228d8k.htm"
+    },
+    {
+      "date": "2023-01-18",
+      "event": "First-day relief and interim DIP",
+      "detail": "Interim cash management order, docket 108; initial DIP capacity 75 USD mm",
+      "source_id": "S01",
+      "section": "IV.B.1 and V.A",
+      "figure_ids": [
+        "F29",
+        "F31",
+        "F32"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/1592058/000119312523091600/d470560dex992.htm"
+    },
+    {
+      "date": "2023-03-03",
+      "event": "Final DIP approval",
+      "detail": "Commitment 150 USD mm; SOFR + 10%; 8% upfront and 0.5% undrawn annual; five-month original term subject to extension",
+      "source_id": "S01",
+      "section": "V.A, p.27",
+      "figure_ids": [
+        "F29",
+        "F30",
+        "F31"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/1592058/000119312523091600/d470560dex992.htm"
+    },
+    {
+      "date": "2023-04-04",
+      "event": "Initial plan",
+      "detail": "Initial plan and disclosure statement",
+      "source_id": "S01",
+      "section": "Cover and I",
+      "figure_ids": [
+        "F39"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/1592058/000119312523091600/d470560dex992.htm"
+    },
+    {
+      "date": "2023-07-21",
+      "event": "Third amended plan",
+      "detail": "Selected analytical vintage; recovery and valuation update",
+      "source_id": "S04",
+      "section": "Cover; III.B",
+      "figure_ids": [
+        "F34"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/1592058/000119312523191776/d520761dex991.htm"
+    },
+    {
+      "date": "2023-08-31",
+      "event": "Fourth amended plan",
+      "detail": "Docket 1672; later than analytical vintage",
+      "source_id": "S06",
+      "section": "Item 1.03",
+      "figure_ids": [
+        "F35"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/1592058/000095014223002340/eh230396430_8k.htm"
+    },
+    {
+      "date": "2023-09-06",
+      "event": "Confirmation",
+      "detail": "Docket 1711; confirmation is not emergence",
+      "source_id": "S06",
+      "section": "Item 1.03",
+      "figure_ids": [
+        "F35"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/1592058/000095014223002340/eh230396430_8k.htm"
+    },
+    {
+      "date": "2023-10-12",
+      "event": "Emergence",
+      "detail": "Plan effective; old common canceled",
+      "source_id": "S07",
+      "section": "Explanatory Note",
+      "figure_ids": [
+        "F36"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/1592058/000095014223002592/eh230409100_8k.htm"
+    }
+  ],
+  "scenario_recoveries": [
+    {
+      "scenario": "low",
+      "ev_mm": 450,
+      "tranche": "revolver",
+      "plan_class": "3A",
+      "claim_mm": 407.282561,
+      "payout_mm": 300.0,
+      "recovery": 0.7365893576769176,
+      "plan_low": 1,
+      "plan_high": 1,
+      "gap_to_nearest_plan_bound": -0.2634106423230824
+    },
+    {
+      "scenario": "low",
+      "ev_mm": 450,
+      "tranche": "filo",
+      "plan_class": "3B",
+      "claim_mm": 17.1105,
+      "payout_mm": 0.0,
+      "recovery": 0.0,
+      "plan_low": 1,
+      "plan_high": 1,
+      "gap_to_nearest_plan_bound": -1.0
+    },
+    {
+      "scenario": "low",
+      "ev_mm": 450,
+      "tranche": "secured_float",
+      "plan_class": "4",
+      "claim_mm": 161.7,
+      "payout_mm": 0.0,
+      "recovery": 0.0,
+      "plan_low": 0,
+      "plan_high": 0.076,
+      "gap_to_nearest_plan_bound": 0.0
+    },
+    {
+      "scenario": "low",
+      "ev_mm": 450,
+      "tranche": "secured_fixed",
+      "plan_class": "4",
+      "claim_mm": 750,
+      "payout_mm": 0.0,
+      "recovery": 0.0,
+      "plan_low": 0,
+      "plan_high": 0.076,
+      "gap_to_nearest_plan_bound": 0.0
+    },
+    {
+      "scenario": "low",
+      "ev_mm": 450,
+      "tranche": "unsecured_2023",
+      "plan_class": "5",
+      "claim_mm": 22.9,
+      "payout_mm": 0.0,
+      "recovery": 0.0,
+      "plan_low": 0.01,
+      "plan_high": 0.025,
+      "gap_to_nearest_plan_bound": -0.01
+    },
+    {
+      "scenario": "low",
+      "ev_mm": 450,
+      "tranche": "unsecured_2026",
+      "plan_class": "5",
+      "claim_mm": 92.3,
+      "payout_mm": 0.0,
+      "recovery": 0.0,
+      "plan_low": 0.01,
+      "plan_high": 0.025,
+      "gap_to_nearest_plan_bound": -0.01
+    },
+    {
+      "scenario": "base",
+      "ev_mm": 612.5,
+      "tranche": "revolver",
+      "plan_class": "3A",
+      "claim_mm": 407.282561,
+      "payout_mm": 407.282561,
+      "recovery": 1.0,
+      "plan_low": 1,
+      "plan_high": 1,
+      "gap_to_nearest_plan_bound": 0.0
+    },
+    {
+      "scenario": "base",
+      "ev_mm": 612.5,
+      "tranche": "filo",
+      "plan_class": "3B",
+      "claim_mm": 17.1105,
+      "payout_mm": 17.1105,
+      "recovery": 1.0,
+      "plan_low": 1,
+      "plan_high": 1,
+      "gap_to_nearest_plan_bound": 0.0
+    },
+    {
+      "scenario": "base",
+      "ev_mm": 612.5,
+      "tranche": "secured_float",
+      "plan_class": "4",
+      "claim_mm": 161.7,
+      "payout_mm": 6.758683817374138,
+      "recovery": 0.0417976735768345,
+      "plan_low": 0,
+      "plan_high": 0.076,
+      "gap_to_nearest_plan_bound": 0.0
+    },
+    {
+      "scenario": "base",
+      "ev_mm": 612.5,
+      "tranche": "secured_fixed",
+      "plan_class": "4",
+      "claim_mm": 750,
+      "payout_mm": 31.348255182625874,
+      "recovery": 0.0417976735768345,
+      "plan_low": 0,
+      "plan_high": 0.076,
+      "gap_to_nearest_plan_bound": 0.0
+    },
+    {
+      "scenario": "base",
+      "ev_mm": 612.5,
+      "tranche": "unsecured_2023",
+      "plan_class": "5",
+      "claim_mm": 22.9,
+      "payout_mm": 0.0,
+      "recovery": 0.0,
+      "plan_low": 0.01,
+      "plan_high": 0.025,
+      "gap_to_nearest_plan_bound": -0.01
+    },
+    {
+      "scenario": "base",
+      "ev_mm": 612.5,
+      "tranche": "unsecured_2026",
+      "plan_class": "5",
+      "claim_mm": 92.3,
+      "payout_mm": 0.0,
+      "recovery": 0.0,
+      "plan_low": 0.01,
+      "plan_high": 0.025,
+      "gap_to_nearest_plan_bound": -0.01
+    },
+    {
+      "scenario": "high",
+      "ev_mm": 775,
+      "tranche": "revolver",
+      "plan_class": "3A",
+      "claim_mm": 407.282561,
+      "payout_mm": 407.282561,
+      "recovery": 1.0,
+      "plan_low": 1,
+      "plan_high": 1,
+      "gap_to_nearest_plan_bound": 0.0
+    },
+    {
+      "scenario": "high",
+      "ev_mm": 775,
+      "tranche": "filo",
+      "plan_class": "3B",
+      "claim_mm": 17.1105,
+      "payout_mm": 17.1105,
+      "recovery": 1.0,
+      "plan_low": 1,
+      "plan_high": 1,
+      "gap_to_nearest_plan_bound": 0.0
+    },
+    {
+      "scenario": "high",
+      "ev_mm": 775,
+      "tranche": "secured_float",
+      "plan_class": "4",
+      "claim_mm": 161.7,
+      "payout_mm": 35.579842093122735,
+      "recovery": 0.22003612920916968,
+      "plan_low": 0,
+      "plan_high": 0.076,
+      "gap_to_nearest_plan_bound": 0.1440361292091697
+    },
+    {
+      "scenario": "high",
+      "ev_mm": 775,
+      "tranche": "secured_fixed",
+      "plan_class": "4",
+      "claim_mm": 750,
+      "payout_mm": 165.02709690687726,
+      "recovery": 0.22003612920916968,
+      "plan_low": 0,
+      "plan_high": 0.076,
+      "gap_to_nearest_plan_bound": 0.1440361292091697
+    },
+    {
+      "scenario": "high",
+      "ev_mm": 775,
+      "tranche": "unsecured_2023",
+      "plan_class": "5",
+      "claim_mm": 22.9,
+      "payout_mm": 0.0,
+      "recovery": 0.0,
+      "plan_low": 0.01,
+      "plan_high": 0.025,
+      "gap_to_nearest_plan_bound": -0.01
+    },
+    {
+      "scenario": "high",
+      "ev_mm": 775,
+      "tranche": "unsecured_2026",
+      "plan_class": "5",
+      "claim_mm": 92.3,
+      "payout_mm": 0.0,
+      "recovery": 0.0,
+      "plan_low": 0.01,
+      "plan_high": 0.025,
+      "gap_to_nearest_plan_bound": -0.01
+    }
+  ],
+  "class_recoveries": [
+    {
+      "scenario": "low",
+      "ev_mm": 450,
+      "class": "3A",
+      "scope": "modeled principal",
+      "recovery": 0.7365893576769176
+    },
+    {
+      "scenario": "low",
+      "ev_mm": 450,
+      "class": "3B",
+      "scope": "modeled principal",
+      "recovery": 0.0
+    },
+    {
+      "scenario": "low",
+      "ev_mm": 450,
+      "class": "4",
+      "scope": "modeled principal",
+      "recovery": 0.0
+    },
+    {
+      "scenario": "low",
+      "ev_mm": 450,
+      "class": "5",
+      "scope": "bond-only proxy",
+      "recovery": 0.0
+    },
+    {
+      "scenario": "base",
+      "ev_mm": 612.5,
+      "class": "3A",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "scenario": "base",
+      "ev_mm": 612.5,
+      "class": "3B",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "scenario": "base",
+      "ev_mm": 612.5,
+      "class": "4",
+      "scope": "modeled principal",
+      "recovery": 0.0417976735768345
+    },
+    {
+      "scenario": "base",
+      "ev_mm": 612.5,
+      "class": "5",
+      "scope": "bond-only proxy",
+      "recovery": 0.0
+    },
+    {
+      "scenario": "high",
+      "ev_mm": 775,
+      "class": "3A",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "scenario": "high",
+      "ev_mm": 775,
+      "class": "3B",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "scenario": "high",
+      "ev_mm": 775,
+      "class": "4",
+      "scope": "modeled principal",
+      "recovery": 0.22003612920916968
+    },
+    {
+      "scenario": "high",
+      "ev_mm": 775,
+      "class": "5",
+      "scope": "bond-only proxy",
+      "recovery": 0.0
+    }
+  ],
+  "valuation_bridge": [
+    {
+      "scenario": "low",
+      "ev_mm": 450,
+      "assumed_net_debt_mm": 513,
+      "signed_equity": -63,
+      "equity": 0.0,
+      "model_senior_paid_mm": 150,
+      "model_equity_mm": 0.0,
+      "model_fulcrum": "revolver",
+      "ev_to_2024_forecast_ebitda": 3.250270855904659
+    },
+    {
+      "scenario": "base",
+      "ev_mm": 612.5,
+      "assumed_net_debt_mm": 513,
+      "signed_equity": 99.5,
+      "equity": 99.5,
+      "model_senior_paid_mm": 150,
+      "model_equity_mm": 0.0,
+      "model_fulcrum": "secured_float; secured_fixed",
+      "ev_to_2024_forecast_ebitda": 4.423979776092453
+    },
+    {
+      "scenario": "high",
+      "ev_mm": 775,
+      "assumed_net_debt_mm": 513,
+      "signed_equity": 262,
+      "equity": 262,
+      "model_senior_paid_mm": 150,
+      "model_equity_mm": 0.0,
+      "model_fulcrum": "secured_float; secured_fixed",
+      "ev_to_2024_forecast_ebitda": 5.597688696280246
+    }
+  ],
+  "thresholds": [
+    {
+      "tranche": "revolver",
+      "class": "3A",
+      "attachment_ev": 150,
+      "full_recovery_ev": 557.282561
+    },
+    {
+      "tranche": "filo",
+      "class": "3B",
+      "attachment_ev": 557.282561,
+      "full_recovery_ev": 574.393061
+    },
+    {
+      "tranche": "secured_float",
+      "class": "4",
+      "attachment_ev": 574.393061,
+      "full_recovery_ev": 1486.093061
+    },
+    {
+      "tranche": "secured_fixed",
+      "class": "4",
+      "attachment_ev": 574.393061,
+      "full_recovery_ev": 1486.093061
+    },
+    {
+      "tranche": "unsecured_2023",
+      "class": "5",
+      "attachment_ev": 1486.093061,
+      "full_recovery_ev": 1601.293061
+    },
+    {
+      "tranche": "unsecured_2026",
+      "class": "5",
+      "attachment_ev": 1486.093061,
+      "full_recovery_ev": 1601.293061
+    }
+  ],
+  "sensitivity": [
+    {
+      "ebitda_factor": 0.75,
+      "ebitda_mm": 103.83749999999999,
+      "multiple": 2,
+      "ev_mm": 207.67499999999998,
+      "class": "3A",
+      "scope": "modeled principal",
+      "recovery": 0.14160930401338737
+    },
+    {
+      "ebitda_factor": 0.75,
+      "ebitda_mm": 103.83749999999999,
+      "multiple": 2,
+      "ev_mm": 207.67499999999998,
+      "class": "3B",
+      "scope": "modeled principal",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 0.75,
+      "ebitda_mm": 103.83749999999999,
+      "multiple": 2,
+      "ev_mm": 207.67499999999998,
+      "class": "4",
+      "scope": "modeled principal",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 0.75,
+      "ebitda_mm": 103.83749999999999,
+      "multiple": 2,
+      "ev_mm": 207.67499999999998,
+      "class": "5",
+      "scope": "bond-only proxy",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 0.75,
+      "ebitda_mm": 103.83749999999999,
+      "multiple": 3,
+      "ev_mm": 311.5125,
+      "class": "3A",
+      "scope": "modeled principal",
+      "recovery": 0.39656129543931046
+    },
+    {
+      "ebitda_factor": 0.75,
+      "ebitda_mm": 103.83749999999999,
+      "multiple": 3,
+      "ev_mm": 311.5125,
+      "class": "3B",
+      "scope": "modeled principal",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 0.75,
+      "ebitda_mm": 103.83749999999999,
+      "multiple": 3,
+      "ev_mm": 311.5125,
+      "class": "4",
+      "scope": "modeled principal",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 0.75,
+      "ebitda_mm": 103.83749999999999,
+      "multiple": 3,
+      "ev_mm": 311.5125,
+      "class": "5",
+      "scope": "bond-only proxy",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 0.75,
+      "ebitda_mm": 103.83749999999999,
+      "multiple": 4,
+      "ev_mm": 415.34999999999997,
+      "class": "3A",
+      "scope": "modeled principal",
+      "recovery": 0.6515132868652336
+    },
+    {
+      "ebitda_factor": 0.75,
+      "ebitda_mm": 103.83749999999999,
+      "multiple": 4,
+      "ev_mm": 415.34999999999997,
+      "class": "3B",
+      "scope": "modeled principal",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 0.75,
+      "ebitda_mm": 103.83749999999999,
+      "multiple": 4,
+      "ev_mm": 415.34999999999997,
+      "class": "4",
+      "scope": "modeled principal",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 0.75,
+      "ebitda_mm": 103.83749999999999,
+      "multiple": 4,
+      "ev_mm": 415.34999999999997,
+      "class": "5",
+      "scope": "bond-only proxy",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 0.75,
+      "ebitda_mm": 103.83749999999999,
+      "multiple": 5,
+      "ev_mm": 519.1875,
+      "class": "3A",
+      "scope": "modeled principal",
+      "recovery": 0.9064652782911568
+    },
+    {
+      "ebitda_factor": 0.75,
+      "ebitda_mm": 103.83749999999999,
+      "multiple": 5,
+      "ev_mm": 519.1875,
+      "class": "3B",
+      "scope": "modeled principal",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 0.75,
+      "ebitda_mm": 103.83749999999999,
+      "multiple": 5,
+      "ev_mm": 519.1875,
+      "class": "4",
+      "scope": "modeled principal",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 0.75,
+      "ebitda_mm": 103.83749999999999,
+      "multiple": 5,
+      "ev_mm": 519.1875,
+      "class": "5",
+      "scope": "bond-only proxy",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 0.75,
+      "ebitda_mm": 103.83749999999999,
+      "multiple": 6,
+      "ev_mm": 623.025,
+      "class": "3A",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "ebitda_factor": 0.75,
+      "ebitda_mm": 103.83749999999999,
+      "multiple": 6,
+      "ev_mm": 623.025,
+      "class": "3B",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "ebitda_factor": 0.75,
+      "ebitda_mm": 103.83749999999999,
+      "multiple": 6,
+      "ev_mm": 623.025,
+      "class": "4",
+      "scope": "modeled principal",
+      "recovery": 0.05334204124163649
+    },
+    {
+      "ebitda_factor": 0.75,
+      "ebitda_mm": 103.83749999999999,
+      "multiple": 6,
+      "ev_mm": 623.025,
+      "class": "5",
+      "scope": "bond-only proxy",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 0.75,
+      "ebitda_mm": 103.83749999999999,
+      "multiple": 8,
+      "ev_mm": 830.6999999999999,
+      "class": "3A",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "ebitda_factor": 0.75,
+      "ebitda_mm": 103.83749999999999,
+      "multiple": 8,
+      "ev_mm": 830.6999999999999,
+      "class": "3B",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "ebitda_factor": 0.75,
+      "ebitda_mm": 103.83749999999999,
+      "multiple": 8,
+      "ev_mm": 830.6999999999999,
+      "class": "4",
+      "scope": "modeled principal",
+      "recovery": 0.28113078753976073
+    },
+    {
+      "ebitda_factor": 0.75,
+      "ebitda_mm": 103.83749999999999,
+      "multiple": 8,
+      "ev_mm": 830.6999999999999,
+      "class": "5",
+      "scope": "bond-only proxy",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 0.75,
+      "ebitda_mm": 103.83749999999999,
+      "multiple": 10,
+      "ev_mm": 1038.375,
+      "class": "3A",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "ebitda_factor": 0.75,
+      "ebitda_mm": 103.83749999999999,
+      "multiple": 10,
+      "ev_mm": 1038.375,
+      "class": "3B",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "ebitda_factor": 0.75,
+      "ebitda_mm": 103.83749999999999,
+      "multiple": 10,
+      "ev_mm": 1038.375,
+      "class": "4",
+      "scope": "modeled principal",
+      "recovery": 0.5089195338378852
+    },
+    {
+      "ebitda_factor": 0.75,
+      "ebitda_mm": 103.83749999999999,
+      "multiple": 10,
+      "ev_mm": 1038.375,
+      "class": "5",
+      "scope": "bond-only proxy",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 0.75,
+      "ebitda_mm": 103.83749999999999,
+      "multiple": 12,
+      "ev_mm": 1246.05,
+      "class": "3A",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "ebitda_factor": 0.75,
+      "ebitda_mm": 103.83749999999999,
+      "multiple": 12,
+      "ev_mm": 1246.05,
+      "class": "3B",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "ebitda_factor": 0.75,
+      "ebitda_mm": 103.83749999999999,
+      "multiple": 12,
+      "ev_mm": 1246.05,
+      "class": "4",
+      "scope": "modeled principal",
+      "recovery": 0.7367082801360094
+    },
+    {
+      "ebitda_factor": 0.75,
+      "ebitda_mm": 103.83749999999999,
+      "multiple": 12,
+      "ev_mm": 1246.05,
+      "class": "5",
+      "scope": "bond-only proxy",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 1,
+      "ebitda_mm": 138.45,
+      "multiple": 2,
+      "ev_mm": 276.9,
+      "class": "3A",
+      "scope": "modeled principal",
+      "recovery": 0.3115772982973361
+    },
+    {
+      "ebitda_factor": 1,
+      "ebitda_mm": 138.45,
+      "multiple": 2,
+      "ev_mm": 276.9,
+      "class": "3B",
+      "scope": "modeled principal",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 1,
+      "ebitda_mm": 138.45,
+      "multiple": 2,
+      "ev_mm": 276.9,
+      "class": "4",
+      "scope": "modeled principal",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 1,
+      "ebitda_mm": 138.45,
+      "multiple": 2,
+      "ev_mm": 276.9,
+      "class": "5",
+      "scope": "bond-only proxy",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 1,
+      "ebitda_mm": 138.45,
+      "multiple": 3,
+      "ev_mm": 415.34999999999997,
+      "class": "3A",
+      "scope": "modeled principal",
+      "recovery": 0.6515132868652336
+    },
+    {
+      "ebitda_factor": 1,
+      "ebitda_mm": 138.45,
+      "multiple": 3,
+      "ev_mm": 415.34999999999997,
+      "class": "3B",
+      "scope": "modeled principal",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 1,
+      "ebitda_mm": 138.45,
+      "multiple": 3,
+      "ev_mm": 415.34999999999997,
+      "class": "4",
+      "scope": "modeled principal",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 1,
+      "ebitda_mm": 138.45,
+      "multiple": 3,
+      "ev_mm": 415.34999999999997,
+      "class": "5",
+      "scope": "bond-only proxy",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 1,
+      "ebitda_mm": 138.45,
+      "multiple": 4,
+      "ev_mm": 553.8,
+      "class": "3A",
+      "scope": "modeled principal",
+      "recovery": 0.991449275433131
+    },
+    {
+      "ebitda_factor": 1,
+      "ebitda_mm": 138.45,
+      "multiple": 4,
+      "ev_mm": 553.8,
+      "class": "3B",
+      "scope": "modeled principal",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 1,
+      "ebitda_mm": 138.45,
+      "multiple": 4,
+      "ev_mm": 553.8,
+      "class": "4",
+      "scope": "modeled principal",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 1,
+      "ebitda_mm": 138.45,
+      "multiple": 4,
+      "ev_mm": 553.8,
+      "class": "5",
+      "scope": "bond-only proxy",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 1,
+      "ebitda_mm": 138.45,
+      "multiple": 5,
+      "ev_mm": 692.25,
+      "class": "3A",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "ebitda_factor": 1,
+      "ebitda_mm": 138.45,
+      "multiple": 5,
+      "ev_mm": 692.25,
+      "class": "3B",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "ebitda_factor": 1,
+      "ebitda_mm": 138.45,
+      "multiple": 5,
+      "ev_mm": 692.25,
+      "class": "4",
+      "scope": "modeled principal",
+      "recovery": 0.1292716233410113
+    },
+    {
+      "ebitda_factor": 1,
+      "ebitda_mm": 138.45,
+      "multiple": 5,
+      "ev_mm": 692.25,
+      "class": "5",
+      "scope": "bond-only proxy",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 1,
+      "ebitda_mm": 138.45,
+      "multiple": 6,
+      "ev_mm": 830.6999999999999,
+      "class": "3A",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "ebitda_factor": 1,
+      "ebitda_mm": 138.45,
+      "multiple": 6,
+      "ev_mm": 830.6999999999999,
+      "class": "3B",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "ebitda_factor": 1,
+      "ebitda_mm": 138.45,
+      "multiple": 6,
+      "ev_mm": 830.6999999999999,
+      "class": "4",
+      "scope": "modeled principal",
+      "recovery": 0.28113078753976073
+    },
+    {
+      "ebitda_factor": 1,
+      "ebitda_mm": 138.45,
+      "multiple": 6,
+      "ev_mm": 830.6999999999999,
+      "class": "5",
+      "scope": "bond-only proxy",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 1,
+      "ebitda_mm": 138.45,
+      "multiple": 8,
+      "ev_mm": 1107.6,
+      "class": "3A",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "ebitda_factor": 1,
+      "ebitda_mm": 138.45,
+      "multiple": 8,
+      "ev_mm": 1107.6,
+      "class": "3B",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "ebitda_factor": 1,
+      "ebitda_mm": 138.45,
+      "multiple": 8,
+      "ev_mm": 1107.6,
+      "class": "4",
+      "scope": "modeled principal",
+      "recovery": 0.58484911593726
+    },
+    {
+      "ebitda_factor": 1,
+      "ebitda_mm": 138.45,
+      "multiple": 8,
+      "ev_mm": 1107.6,
+      "class": "5",
+      "scope": "bond-only proxy",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 1,
+      "ebitda_mm": 138.45,
+      "multiple": 10,
+      "ev_mm": 1384.5,
+      "class": "3A",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "ebitda_factor": 1,
+      "ebitda_mm": 138.45,
+      "multiple": 10,
+      "ev_mm": 1384.5,
+      "class": "3B",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "ebitda_factor": 1,
+      "ebitda_mm": 138.45,
+      "multiple": 10,
+      "ev_mm": 1384.5,
+      "class": "4",
+      "scope": "modeled principal",
+      "recovery": 0.8885674443347591
+    },
+    {
+      "ebitda_factor": 1,
+      "ebitda_mm": 138.45,
+      "multiple": 10,
+      "ev_mm": 1384.5,
+      "class": "5",
+      "scope": "bond-only proxy",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 1,
+      "ebitda_mm": 138.45,
+      "multiple": 12,
+      "ev_mm": 1661.3999999999999,
+      "class": "3A",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "ebitda_factor": 1,
+      "ebitda_mm": 138.45,
+      "multiple": 12,
+      "ev_mm": 1661.3999999999999,
+      "class": "3B",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "ebitda_factor": 1,
+      "ebitda_mm": 138.45,
+      "multiple": 12,
+      "ev_mm": 1661.3999999999999,
+      "class": "4",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "ebitda_factor": 1,
+      "ebitda_mm": 138.45,
+      "multiple": 12,
+      "ev_mm": 1661.3999999999999,
+      "class": "5",
+      "scope": "bond-only proxy",
+      "recovery": 1.0
+    },
+    {
+      "ebitda_factor": 1.25,
+      "ebitda_mm": 173.0625,
+      "multiple": 2,
+      "ev_mm": 346.125,
+      "class": "3A",
+      "scope": "modeled principal",
+      "recovery": 0.48154529258128487
+    },
+    {
+      "ebitda_factor": 1.25,
+      "ebitda_mm": 173.0625,
+      "multiple": 2,
+      "ev_mm": 346.125,
+      "class": "3B",
+      "scope": "modeled principal",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 1.25,
+      "ebitda_mm": 173.0625,
+      "multiple": 2,
+      "ev_mm": 346.125,
+      "class": "4",
+      "scope": "modeled principal",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 1.25,
+      "ebitda_mm": 173.0625,
+      "multiple": 2,
+      "ev_mm": 346.125,
+      "class": "5",
+      "scope": "bond-only proxy",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 1.25,
+      "ebitda_mm": 173.0625,
+      "multiple": 3,
+      "ev_mm": 519.1875,
+      "class": "3A",
+      "scope": "modeled principal",
+      "recovery": 0.9064652782911568
+    },
+    {
+      "ebitda_factor": 1.25,
+      "ebitda_mm": 173.0625,
+      "multiple": 3,
+      "ev_mm": 519.1875,
+      "class": "3B",
+      "scope": "modeled principal",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 1.25,
+      "ebitda_mm": 173.0625,
+      "multiple": 3,
+      "ev_mm": 519.1875,
+      "class": "4",
+      "scope": "modeled principal",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 1.25,
+      "ebitda_mm": 173.0625,
+      "multiple": 3,
+      "ev_mm": 519.1875,
+      "class": "5",
+      "scope": "bond-only proxy",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 1.25,
+      "ebitda_mm": 173.0625,
+      "multiple": 4,
+      "ev_mm": 692.25,
+      "class": "3A",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "ebitda_factor": 1.25,
+      "ebitda_mm": 173.0625,
+      "multiple": 4,
+      "ev_mm": 692.25,
+      "class": "3B",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "ebitda_factor": 1.25,
+      "ebitda_mm": 173.0625,
+      "multiple": 4,
+      "ev_mm": 692.25,
+      "class": "4",
+      "scope": "modeled principal",
+      "recovery": 0.1292716233410113
+    },
+    {
+      "ebitda_factor": 1.25,
+      "ebitda_mm": 173.0625,
+      "multiple": 4,
+      "ev_mm": 692.25,
+      "class": "5",
+      "scope": "bond-only proxy",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 1.25,
+      "ebitda_mm": 173.0625,
+      "multiple": 5,
+      "ev_mm": 865.3125,
+      "class": "3A",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "ebitda_factor": 1.25,
+      "ebitda_mm": 173.0625,
+      "multiple": 5,
+      "ev_mm": 865.3125,
+      "class": "3B",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "ebitda_factor": 1.25,
+      "ebitda_mm": 173.0625,
+      "multiple": 5,
+      "ev_mm": 865.3125,
+      "class": "4",
+      "scope": "modeled principal",
+      "recovery": 0.3190955785894482
+    },
+    {
+      "ebitda_factor": 1.25,
+      "ebitda_mm": 173.0625,
+      "multiple": 5,
+      "ev_mm": 865.3125,
+      "class": "5",
+      "scope": "bond-only proxy",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 1.25,
+      "ebitda_mm": 173.0625,
+      "multiple": 6,
+      "ev_mm": 1038.375,
+      "class": "3A",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "ebitda_factor": 1.25,
+      "ebitda_mm": 173.0625,
+      "multiple": 6,
+      "ev_mm": 1038.375,
+      "class": "3B",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "ebitda_factor": 1.25,
+      "ebitda_mm": 173.0625,
+      "multiple": 6,
+      "ev_mm": 1038.375,
+      "class": "4",
+      "scope": "modeled principal",
+      "recovery": 0.5089195338378852
+    },
+    {
+      "ebitda_factor": 1.25,
+      "ebitda_mm": 173.0625,
+      "multiple": 6,
+      "ev_mm": 1038.375,
+      "class": "5",
+      "scope": "bond-only proxy",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 1.25,
+      "ebitda_mm": 173.0625,
+      "multiple": 8,
+      "ev_mm": 1384.5,
+      "class": "3A",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "ebitda_factor": 1.25,
+      "ebitda_mm": 173.0625,
+      "multiple": 8,
+      "ev_mm": 1384.5,
+      "class": "3B",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "ebitda_factor": 1.25,
+      "ebitda_mm": 173.0625,
+      "multiple": 8,
+      "ev_mm": 1384.5,
+      "class": "4",
+      "scope": "modeled principal",
+      "recovery": 0.8885674443347591
+    },
+    {
+      "ebitda_factor": 1.25,
+      "ebitda_mm": 173.0625,
+      "multiple": 8,
+      "ev_mm": 1384.5,
+      "class": "5",
+      "scope": "bond-only proxy",
+      "recovery": 0.0
+    },
+    {
+      "ebitda_factor": 1.25,
+      "ebitda_mm": 173.0625,
+      "multiple": 10,
+      "ev_mm": 1730.625,
+      "class": "3A",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "ebitda_factor": 1.25,
+      "ebitda_mm": 173.0625,
+      "multiple": 10,
+      "ev_mm": 1730.625,
+      "class": "3B",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "ebitda_factor": 1.25,
+      "ebitda_mm": 173.0625,
+      "multiple": 10,
+      "ev_mm": 1730.625,
+      "class": "4",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "ebitda_factor": 1.25,
+      "ebitda_mm": 173.0625,
+      "multiple": 10,
+      "ev_mm": 1730.625,
+      "class": "5",
+      "scope": "bond-only proxy",
+      "recovery": 1.0
+    },
+    {
+      "ebitda_factor": 1.25,
+      "ebitda_mm": 173.0625,
+      "multiple": 12,
+      "ev_mm": 2076.75,
+      "class": "3A",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "ebitda_factor": 1.25,
+      "ebitda_mm": 173.0625,
+      "multiple": 12,
+      "ev_mm": 2076.75,
+      "class": "3B",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "ebitda_factor": 1.25,
+      "ebitda_mm": 173.0625,
+      "multiple": 12,
+      "ev_mm": 2076.75,
+      "class": "4",
+      "scope": "modeled principal",
+      "recovery": 1.0
+    },
+    {
+      "ebitda_factor": 1.25,
+      "ebitda_mm": 173.0625,
+      "multiple": 12,
+      "ev_mm": 2076.75,
+      "class": "5",
+      "scope": "bond-only proxy",
+      "recovery": 1.0
+    }
+  ],
+  "liquidation_comparison": [
+    {
+      "class": "1",
+      "filed_liquidation_recovery": null,
+      "status": "unverified",
+      "reason": "S01 Exhibit E intentionally omitted. Kroll returned HTTP 403. No liquidation numbers inferred."
+    },
+    {
+      "class": "2",
+      "filed_liquidation_recovery": null,
+      "status": "unverified",
+      "reason": "S01 Exhibit E intentionally omitted. Kroll returned HTTP 403. No liquidation numbers inferred."
+    },
+    {
+      "class": "3A",
+      "filed_liquidation_recovery": null,
+      "status": "unverified",
+      "reason": "S01 Exhibit E intentionally omitted. Kroll returned HTTP 403. No liquidation numbers inferred."
+    },
+    {
+      "class": "3B",
+      "filed_liquidation_recovery": null,
+      "status": "unverified",
+      "reason": "S01 Exhibit E intentionally omitted. Kroll returned HTTP 403. No liquidation numbers inferred."
+    },
+    {
+      "class": "4",
+      "filed_liquidation_recovery": null,
+      "status": "unverified",
+      "reason": "S01 Exhibit E intentionally omitted. Kroll returned HTTP 403. No liquidation numbers inferred."
+    },
+    {
+      "class": "5",
+      "filed_liquidation_recovery": null,
+      "status": "unverified",
+      "reason": "S01 Exhibit E intentionally omitted. Kroll returned HTTP 403. No liquidation numbers inferred."
+    },
+    {
+      "class": "6",
+      "filed_liquidation_recovery": null,
+      "status": "unverified",
+      "reason": "S01 Exhibit E intentionally omitted. Kroll returned HTTP 403. No liquidation numbers inferred."
+    },
+    {
+      "class": "7",
+      "filed_liquidation_recovery": null,
+      "status": "unverified",
+      "reason": "S01 Exhibit E intentionally omitted. Kroll returned HTTP 403. No liquidation numbers inferred."
+    },
+    {
+      "class": "8",
+      "filed_liquidation_recovery": null,
+      "status": "unverified",
+      "reason": "S01 Exhibit E intentionally omitted. Kroll returned HTTP 403. No liquidation numbers inferred."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "method": "Restricted standard-library evaluator applied to stored Excel formula text",
+  "formula_cells": 252,
+  "native_excel_recalculation": "untested",
+  "native_attempt": "Excel COM failed with HRESULT 0x80070520: no logon session. Desktop UI native pipe also unavailable.",
+  "tolerance": 1e-08,
+  "note": "Caches are evaluated results. Live formulas remain; Excel is set to recalculate on open. Run unit tests for reconciliation and input perturbation."
+}

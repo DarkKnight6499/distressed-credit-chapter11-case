@@ -1,0 +1,13 @@
+scenario,ev_mm,class,scope,recovery
+low,450,3A,modeled principal,0.7365893576769176
+low,450,3B,modeled principal,0.0
+low,450,4,modeled principal,0.0
+low,450,5,bond-only proxy,0.0
+base,612.5,3A,modeled principal,1.0
+base,612.5,3B,modeled principal,1.0
+base,612.5,4,modeled principal,0.0417976735768345
+base,612.5,5,bond-only proxy,0.0
+high,775,3A,modeled principal,1.0
+high,775,3B,modeled principal,1.0
+high,775,4,modeled principal,0.22003612920916968
+high,775,5,bond-only proxy,0.0

@@ -1,0 +1,191 @@
+{
+  "note": "docs/strategy_note.md",
+  "claims": [
+    {
+      "token": "2023-07-21",
+      "evidence": [
+        "F34"
+      ],
+      "paragraph_sha256": "9715b98c00820e150cbf83e3bb2bededd934f3a1970a789b192f8c2f2e546b67"
+    },
+    {
+      "token": "1,451.2",
+      "evidence": [
+        "D04",
+        "F02",
+        "D05",
+        "D06"
+      ],
+      "paragraph_sha256": "cbb12336b2987bef382ced996b451020e4474d4900032a489283b4d31e06d9a8"
+    },
+    {
+      "token": "424.3",
+      "evidence": [
+        "D04",
+        "F02",
+        "D05",
+        "D06"
+      ],
+      "paragraph_sha256": "cbb12336b2987bef382ced996b451020e4474d4900032a489283b4d31e06d9a8"
+    },
+    {
+      "token": "911.7",
+      "evidence": [
+        "D04",
+        "F02",
+        "D05",
+        "D06"
+      ],
+      "paragraph_sha256": "cbb12336b2987bef382ced996b451020e4474d4900032a489283b4d31e06d9a8"
+    },
+    {
+      "token": "115.2",
+      "evidence": [
+        "D04",
+        "F02",
+        "D05",
+        "D06"
+      ],
+      "paragraph_sha256": "cbb12336b2987bef382ced996b451020e4474d4900032a489283b4d31e06d9a8"
+    },
+    {
+      "token": "450",
+      "evidence": [
+        "F25",
+        "D01",
+        "F27",
+        "D07",
+        "D02",
+        "D03"
+      ],
+      "paragraph_sha256": "deefaa2a1fc34b048da90c3c1a7a7d17fc9198fef5210a6936fc7fa112916976"
+    },
+    {
+      "token": "775",
+      "evidence": [
+        "F25",
+        "D01",
+        "F27",
+        "D07",
+        "D02",
+        "D03"
+      ],
+      "paragraph_sha256": "deefaa2a1fc34b048da90c3c1a7a7d17fc9198fef5210a6936fc7fa112916976"
+    },
+    {
+      "token": "612.5",
+      "evidence": [
+        "F25",
+        "D01",
+        "F27",
+        "D07",
+        "D02",
+        "D03"
+      ],
+      "paragraph_sha256": "deefaa2a1fc34b048da90c3c1a7a7d17fc9198fef5210a6936fc7fa112916976"
+    },
+    {
+      "token": "513",
+      "evidence": [
+        "F25",
+        "D01",
+        "F27",
+        "D07",
+        "D02",
+        "D03"
+      ],
+      "paragraph_sha256": "deefaa2a1fc34b048da90c3c1a7a7d17fc9198fef5210a6936fc7fa112916976"
+    },
+    {
+      "token": "99.5",
+      "evidence": [
+        "F25",
+        "D01",
+        "F27",
+        "D07",
+        "D02",
+        "D03"
+      ],
+      "paragraph_sha256": "deefaa2a1fc34b048da90c3c1a7a7d17fc9198fef5210a6936fc7fa112916976"
+    },
+    {
+      "token": "4.18%",
+      "evidence": [
+        "F25",
+        "D01",
+        "F27",
+        "D07",
+        "D02",
+        "D03"
+      ],
+      "paragraph_sha256": "deefaa2a1fc34b048da90c3c1a7a7d17fc9198fef5210a6936fc7fa112916976"
+    },
+    {
+      "token": "22.00%",
+      "evidence": [
+        "F25",
+        "D01",
+        "F27",
+        "D07",
+        "D02",
+        "D03"
+      ],
+      "paragraph_sha256": "deefaa2a1fc34b048da90c3c1a7a7d17fc9198fef5210a6936fc7fa112916976"
+    },
+    {
+      "token": "0.0%",
+      "evidence": [
+        "F21",
+        "F22",
+        "F23"
+      ],
+      "paragraph_sha256": "293a087aa629feae07c390bcc419946efefd23fc73ef517fe51255b5279a31da"
+    },
+    {
+      "token": "7.60%",
+      "evidence": [
+        "F21",
+        "F22",
+        "F23"
+      ],
+      "paragraph_sha256": "293a087aa629feae07c390bcc419946efefd23fc73ef517fe51255b5279a31da"
+    },
+    {
+      "token": "0.08%",
+      "evidence": [
+        "F21",
+        "F22",
+        "F23"
+      ],
+      "paragraph_sha256": "293a087aa629feae07c390bcc419946efefd23fc73ef517fe51255b5279a31da"
+    },
+    {
+      "token": "7.53%",
+      "evidence": [
+        "F21",
+        "F22",
+        "F23"
+      ],
+      "paragraph_sha256": "293a087aa629feae07c390bcc419946efefd23fc73ef517fe51255b5279a31da"
+    },
+    {
+      "token": "1.0%",
+      "evidence": [
+        "F21",
+        "F22",
+        "F23"
+      ],
+      "paragraph_sha256": "293a087aa629feae07c390bcc419946efefd23fc73ef517fe51255b5279a31da"
+    },
+    {
+      "token": "2.5%",
+      "evidence": [
+        "F21",
+        "F22",
+        "F23"
+      ],
+      "paragraph_sha256": "293a087aa629feae07c390bcc419946efefd23fc73ef517fe51255b5279a31da"
+    }
+  ],
+  "method": "Each numeric display token maps to ledger rows; derived rows are generated from the same reviewed inputs."
+}

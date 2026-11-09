@@ -1,0 +1,9 @@
+date,event,detail,source_id,section,figure_ids,url
+2023-01-17,Petition and RSA,Voluntary filing and support agreement,S05,Item 1.01,"['F01', 'F33']",https://www.sec.gov/Archives/edgar/data/1592058/000119312523009847/d643228d8k.htm
+2023-01-18,First-day relief and interim DIP,"Interim cash management order, docket 108; initial DIP capacity 75 USD mm",S01,IV.B.1 and V.A,"['F29', 'F31', 'F32']",https://www.sec.gov/Archives/edgar/data/1592058/000119312523091600/d470560dex992.htm
+2023-03-03,Final DIP approval,Commitment 150 USD mm; SOFR + 10%; 8% upfront and 0.5% undrawn annual; five-month original term subject to extension,S01,"V.A, p.27","['F29', 'F30', 'F31']",https://www.sec.gov/Archives/edgar/data/1592058/000119312523091600/d470560dex992.htm
+2023-04-04,Initial plan,Initial plan and disclosure statement,S01,Cover and I,['F39'],https://www.sec.gov/Archives/edgar/data/1592058/000119312523091600/d470560dex992.htm
+2023-07-21,Third amended plan,Selected analytical vintage; recovery and valuation update,S04,Cover; III.B,['F34'],https://www.sec.gov/Archives/edgar/data/1592058/000119312523191776/d520761dex991.htm
+2023-08-31,Fourth amended plan,Docket 1672; later than analytical vintage,S06,Item 1.03,['F35'],https://www.sec.gov/Archives/edgar/data/1592058/000095014223002340/eh230396430_8k.htm
+2023-09-06,Confirmation,Docket 1711; confirmation is not emergence,S06,Item 1.03,['F35'],https://www.sec.gov/Archives/edgar/data/1592058/000095014223002340/eh230396430_8k.htm
+2023-10-12,Emergence,Plan effective; old common canceled,S07,Explanatory Note,['F36'],https://www.sec.gov/Archives/edgar/data/1592058/000095014223002592/eh230409100_8k.htm

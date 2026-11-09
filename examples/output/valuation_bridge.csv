@@ -1,0 +1,4 @@
+scenario,ev_mm,assumed_net_debt_mm,signed_equity,equity,model_senior_paid_mm,model_equity_mm,model_fulcrum,ev_to_2024_forecast_ebitda
+low,450,513,-63,0.0,150,0.0,revolver,3.250270855904659
+base,612.5,513,99.5,99.5,150,0.0,secured_float; secured_fixed,4.423979776092453
+high,775,513,262,262,150,0.0,secured_float; secured_fixed,5.597688696280246

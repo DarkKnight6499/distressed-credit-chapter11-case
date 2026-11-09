@@ -1,0 +1,731 @@
+{
+  "schema_version": 1,
+  "case": "Party City Holdco Inc., 2023 Chapter 11",
+  "petition_date": "2023-01-17",
+  "plan_as_of": "2023-07-21",
+  "retrieval_date": "2026-11-09",
+  "currency": "USD",
+  "amount_unit": "millions",
+  "sources": {
+    "S01": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1592058/000119312523091600/d470560dex992.htm",
+      "document": "Disclosure statement, April 4, 2023",
+      "retrieved": "2026-11-09",
+      "status": "opened via web tool"
+    },
+    "S02": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1592058/000119312523191776/d520761dex992.htm",
+      "document": "Disclosure statement supplement, July 21, 2023",
+      "retrieved": "2026-11-09",
+      "status": "opened via web tool"
+    },
+    "S03": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1592058/000119312523191776/d520761dex993.htm",
+      "document": "Cleansing materials, updated projections and valuation, July 24, 2023",
+      "retrieved": "2026-11-09",
+      "status": "opened via web tool"
+    },
+    "S04": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1592058/000119312523191776/d520761dex991.htm",
+      "document": "Third amended plan, July 21, 2023",
+      "retrieved": "2026-11-09",
+      "status": "opened via web tool"
+    },
+    "S05": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1592058/000119312523009847/d643228d8k.htm",
+      "document": "Petition and RSA 8-K, January 17, 2023",
+      "retrieved": "2026-11-09",
+      "status": "opened via web tool"
+    },
+    "S06": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1592058/000095014223002340/eh230396430_8k.htm",
+      "document": "Confirmation 8-K, September 6, 2023",
+      "retrieved": "2026-11-09",
+      "status": "opened via web tool"
+    },
+    "S07": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1592058/000095014223002592/eh230409100_8k.htm",
+      "document": "Emergence 8-K, October 12, 2023",
+      "retrieved": "2026-11-09",
+      "status": "opened via web tool"
+    },
+    "S08": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1592058/000119312520207189/d43127dex41.htm",
+      "document": "Floating-rate note indenture, July 30, 2020",
+      "retrieved": "2026-11-09",
+      "status": "opened via web tool"
+    },
+    "S09": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1592058/000119312522199601/d946559dex101.htm",
+      "document": "Seventh ABL amendment, July 19, 2022",
+      "retrieved": "2026-11-09",
+      "status": "opened via web tool"
+    },
+    "S10": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1592058/000095017024037962/ck0001592058-20221231.htm",
+      "document": "FY2022 10-K, filed March 28, 2024; terms cross-check only",
+      "retrieved": "2026-11-09",
+      "status": "opened via web tool"
+    }
+  },
+  "verified_figures": [
+    {
+      "id": "F01",
+      "figure": "petition",
+      "value": "2023-01-17",
+      "source_id": "S05",
+      "section": "Item 1.01, Chapter 11 Filing",
+      "status": "verified"
+    },
+    {
+      "id": "F02",
+      "figure": "ABL petition principal, USD mm",
+      "value": 424.3,
+      "source_id": "S01",
+      "section": "II.D.1, p.10",
+      "status": "verified"
+    },
+    {
+      "id": "F03",
+      "figure": "floating note petition principal, USD mm",
+      "value": 161.7,
+      "source_id": "S01",
+      "section": "II.D.2.a, p.11",
+      "status": "verified"
+    },
+    {
+      "id": "F04",
+      "figure": "fixed note petition principal, USD mm",
+      "value": 750,
+      "source_id": "S01",
+      "section": "II.D.2.b, p.11",
+      "status": "verified"
+    },
+    {
+      "id": "F05",
+      "figure": "unsecured 2023 petition principal, USD mm",
+      "value": 22.9,
+      "source_id": "S01",
+      "section": "II.D.3.a, p.12",
+      "status": "verified"
+    },
+    {
+      "id": "F06",
+      "figure": "unsecured 2026 petition principal, USD mm",
+      "value": 92.3,
+      "source_id": "S01",
+      "section": "II.D.3.b, p.12",
+      "status": "verified"
+    },
+    {
+      "id": "F07",
+      "figure": "ABL maturity",
+      "value": "2026-02-19",
+      "source_id": "S01",
+      "section": "II.D.1, p.10",
+      "status": "verified"
+    },
+    {
+      "id": "F08",
+      "figure": "floating note maturity",
+      "value": "2025-07-15",
+      "source_id": "S01",
+      "section": "II.D.2.a, p.11",
+      "status": "verified"
+    },
+    {
+      "id": "F09",
+      "figure": "fixed note maturity",
+      "value": "2026-02-15",
+      "source_id": "S01",
+      "section": "II.D.2.b, p.11",
+      "status": "verified"
+    },
+    {
+      "id": "F10",
+      "figure": "unsecured 2023 maturity and coupon",
+      "value": "2023-08-15; 6.125%",
+      "source_id": "S01",
+      "section": "II.D.3.a, p.12",
+      "status": "verified"
+    },
+    {
+      "id": "F11",
+      "figure": "unsecured 2026 maturity and coupon",
+      "value": "2026-08-01; 6.625%",
+      "source_id": "S01",
+      "section": "II.D.3.b, p.12",
+      "status": "verified"
+    },
+    {
+      "id": "F12",
+      "figure": "fixed note coupon",
+      "value": "8.750%",
+      "source_id": "S05",
+      "section": "Item 1.01, RSA description",
+      "status": "verified"
+    },
+    {
+      "id": "F13",
+      "figure": "floating coupon",
+      "value": "six-month LIBOR + 5.00%; 0.75% LIBOR floor",
+      "source_id": "S08",
+      "section": "Section 2.01, form of security, interest terms (g), p.38",
+      "status": "verified"
+    },
+    {
+      "id": "F14",
+      "figure": "ABL revolver margin",
+      "value": "Term SOFR + 1.50%-1.75% or ABR + 0.50%-0.75%",
+      "source_id": "S09",
+      "section": "Exhibit A, Applicable Rate definition, p.5",
+      "status": "verified"
+    },
+    {
+      "id": "F15",
+      "figure": "FILO margin",
+      "value": "Term SOFR + 2.75% or ABR + 1.75%",
+      "source_id": "S09",
+      "section": "Exhibit A, Applicable Rate definition, p.5",
+      "status": "verified"
+    },
+    {
+      "id": "F16",
+      "figure": "SOFR credit adjustment",
+      "value": "0.10%",
+      "source_id": "S10",
+      "section": "Note 11, Prepetition ABL Facility, pp.82-83",
+      "status": "verified"
+    },
+    {
+      "id": "F17",
+      "figure": "July revolver principal floor, USD mm",
+      "value": 407.282561,
+      "source_id": "S04",
+      "section": "III.B.3.a.ii, p.32; principal plus interest/fees",
+      "status": "verified"
+    },
+    {
+      "id": "F18",
+      "figure": "July FILO principal floor, USD mm",
+      "value": 17.1105,
+      "source_id": "S04",
+      "section": "III.B.3.b.ii, p.33; principal plus interest/fees",
+      "status": "verified"
+    },
+    {
+      "id": "F19",
+      "figure": "July secured-notes principal floor, USD mm",
+      "value": 911.7,
+      "source_id": "S04",
+      "section": "III.B.4.b, p.33; principal plus interest/fees",
+      "status": "verified"
+    },
+    {
+      "id": "F20",
+      "figure": "classes 1,2,3A,3B projected recovery",
+      "value": "100% each",
+      "source_id": "S02",
+      "section": "Exhibit A, pp.1-2",
+      "status": "verified"
+    },
+    {
+      "id": "F21",
+      "figure": "class 4 projected recovery",
+      "value": "0.0%-7.60%",
+      "source_id": "S02",
+      "section": "Exhibit A, p.2",
+      "status": "verified"
+    },
+    {
+      "id": "F22",
+      "figure": "class 4 direct equity and rights recovery",
+      "value": "0.0%-0.08%; 0.0%-7.53%",
+      "source_id": "S02",
+      "section": "Exhibit A, p.2, footnote 1; reported rounded components",
+      "status": "verified"
+    },
+    {
+      "id": "F23",
+      "figure": "class 5 projected recovery",
+      "value": "1.0%-2.5%",
+      "source_id": "S02",
+      "section": "Exhibit A, p.2",
+      "status": "verified"
+    },
+    {
+      "id": "F24",
+      "figure": "classes 6,7,8 recovery",
+      "value": "N/A; N/A; 0%",
+      "source_id": "S02",
+      "section": "Exhibit A, pp.2-3",
+      "status": "verified"
+    },
+    {
+      "id": "F25",
+      "figure": "stated EV range, USD mm",
+      "value": [
+        450,
+        775
+      ],
+      "source_id": "S03",
+      "section": "Exhibit G, Reorganized Debtors Valuation Analysis, opening paragraphs",
+      "status": "verified"
+    },
+    {
+      "id": "F26",
+      "figure": "valuation dates",
+      "value": "opinion 2023-07-17; assumed valuation 2023-09-30",
+      "source_id": "S03",
+      "section": "Exhibit G, opening paragraphs",
+      "status": "verified"
+    },
+    {
+      "id": "F27",
+      "figure": "assumed net debt and floored equity range, USD mm",
+      "value": "513; 0-262",
+      "source_id": "S03",
+      "section": "Exhibit G, opening paragraphs; net debt as of assumed 2023-08-31",
+      "status": "verified"
+    },
+    {
+      "id": "F28",
+      "figure": "2024 forecast adjusted EBITDA, USD mm",
+      "value": 138.45,
+      "source_id": "S03",
+      "section": "Exhibit F, Projected Income Statement, USD thousands, 2024 Forecast",
+      "status": "verified"
+    },
+    {
+      "id": "F29",
+      "figure": "DIP commitment and initial draw capacity, USD mm",
+      "value": "150; 75",
+      "source_id": "S01",
+      "section": "V.A, p.27",
+      "status": "verified"
+    },
+    {
+      "id": "F30",
+      "figure": "DIP pricing and fees",
+      "value": "SOFR + 10%; 8% upfront; 0.5% undrawn annual",
+      "source_id": "S01",
+      "section": "V.A, p.27",
+      "status": "verified"
+    },
+    {
+      "id": "F31",
+      "figure": "DIP interim and final approval",
+      "value": "2023-01-18; 2023-03-03",
+      "source_id": "S01",
+      "section": "V.A, p.27, footnote 35",
+      "status": "verified"
+    },
+    {
+      "id": "F32",
+      "figure": "first-day cash management relief",
+      "value": "2023-01-18",
+      "source_id": "S01",
+      "section": "IV.B.1, pp.18-19, docket 108",
+      "status": "verified"
+    },
+    {
+      "id": "F33",
+      "figure": "RSA",
+      "value": "2023-01-17",
+      "source_id": "S05",
+      "section": "Item 1.01, RSA",
+      "status": "verified"
+    },
+    {
+      "id": "F34",
+      "figure": "third amended plan date",
+      "value": "2023-07-21",
+      "source_id": "S04",
+      "section": "Cover",
+      "status": "verified"
+    },
+    {
+      "id": "F35",
+      "figure": "fourth plan and confirmation",
+      "value": "2023-08-31; 2023-09-06",
+      "source_id": "S07",
+      "section": "Explanatory Note, dockets 1672 and 1711; confirmation also S06 Item 1.03",
+      "status": "verified"
+    },
+    {
+      "id": "F36",
+      "figure": "emergence",
+      "value": "2023-10-12",
+      "source_id": "S07",
+      "section": "Explanatory Note, Effective Date paragraph",
+      "status": "verified"
+    },
+    {
+      "id": "F37",
+      "figure": "rights offering new money, USD mm",
+      "value": 75,
+      "source_id": "S04",
+      "section": "III.B.4.c, pp.33-34",
+      "status": "verified"
+    },
+    {
+      "id": "F38",
+      "figure": "intercompany loan facility maximum, USD mm",
+      "value": 22,
+      "source_id": "S01",
+      "section": "II.D.3.c, p.12; outstanding amount not given",
+      "status": "verified"
+    },
+    {
+      "id": "F39",
+      "figure": "initial plan date",
+      "value": "2023-04-04",
+      "source_id": "S01",
+      "section": "Cover and I",
+      "status": "verified"
+    },
+    {
+      "id": "F40",
+      "figure": "DIP original term",
+      "value": "five months, subject to extension",
+      "source_id": "S01",
+      "section": "V.A, p.27",
+      "status": "verified"
+    }
+  ],
+  "capital_structure": [
+    {
+      "id": "abl_total",
+      "tranche": "ABL aggregate (control only)",
+      "class": "3A/3B",
+      "petition_principal_mm": 424.3,
+      "model_claim_mm": null,
+      "rank": null,
+      "maturity": "2026-02-19",
+      "coupon": "See revolver and FILO",
+      "security": "First lien on ABL collateral; second lien on other collateral",
+      "source_ids": [
+        "F02",
+        "F07"
+      ]
+    },
+    {
+      "id": "revolver",
+      "tranche": "ABL revolver",
+      "class": "3A",
+      "petition_principal_mm": null,
+      "model_claim_mm": 407.282561,
+      "rank": 1,
+      "maturity": "2026-02-19",
+      "coupon": "Adjusted Term SOFR + 1.50%-1.75% or ABR + 0.50%-0.75%",
+      "security": "ABL collateral first lien; other collateral second lien",
+      "source_ids": [
+        "F07",
+        "F14",
+        "F16",
+        "F17"
+      ]
+    },
+    {
+      "id": "filo",
+      "tranche": "ABL FILO",
+      "class": "3B",
+      "petition_principal_mm": null,
+      "model_claim_mm": 17.1105,
+      "rank": 2,
+      "maturity": "2026-02-19",
+      "coupon": "Adjusted Term SOFR + 2.75% or ABR + 1.75%",
+      "security": "First-in last-out within ABL; model places after revolver",
+      "source_ids": [
+        "F07",
+        "F15",
+        "F16",
+        "F18"
+      ]
+    },
+    {
+      "id": "secured_float",
+      "tranche": "Secured floating notes",
+      "class": "4",
+      "petition_principal_mm": 161.7,
+      "model_claim_mm": 161.7,
+      "rank": 3,
+      "maturity": "2025-07-15",
+      "coupon": "6m LIBOR + 5.00%; LIBOR floor 0.75%",
+      "security": "Other collateral first lien; ABL collateral second lien; pari passu with fixed notes",
+      "source_ids": [
+        "F03",
+        "F08",
+        "F13"
+      ]
+    },
+    {
+      "id": "secured_fixed",
+      "tranche": "Secured fixed notes",
+      "class": "4",
+      "petition_principal_mm": 750,
+      "model_claim_mm": 750,
+      "rank": 3,
+      "maturity": "2026-02-15",
+      "coupon": "8.750%",
+      "security": "Same liens and rank as floating notes",
+      "source_ids": [
+        "F04",
+        "F09",
+        "F12"
+      ]
+    },
+    {
+      "id": "unsecured_2023",
+      "tranche": "Unsecured 2023 notes",
+      "class": "5",
+      "petition_principal_mm": 22.9,
+      "model_claim_mm": 22.9,
+      "rank": 4,
+      "maturity": "2023-08-15",
+      "coupon": "6.125%",
+      "security": "Senior unsecured; model pari passu with unsecured 2026 notes",
+      "source_ids": [
+        "F05",
+        "F10"
+      ]
+    },
+    {
+      "id": "unsecured_2026",
+      "tranche": "Unsecured 2026 notes",
+      "class": "5",
+      "petition_principal_mm": 92.3,
+      "model_claim_mm": 92.3,
+      "rank": 4,
+      "maturity": "2026-08-01",
+      "coupon": "6.625%",
+      "security": "Senior unsecured",
+      "source_ids": [
+        "F06",
+        "F11"
+      ]
+    }
+  ],
+  "plan_recoveries": [
+    {
+      "class": "1",
+      "name": "Other secured",
+      "low": 1,
+      "high": 1,
+      "impairment": "Unimpaired",
+      "treatment": "Cash, reinstatement or permitted alternative",
+      "figure_id": "F20"
+    },
+    {
+      "class": "2",
+      "name": "Other priority",
+      "low": 1,
+      "high": 1,
+      "impairment": "Unimpaired",
+      "treatment": "Cash or statutory treatment",
+      "figure_id": "F20"
+    },
+    {
+      "class": "3A",
+      "name": "ABL revolver",
+      "low": 1,
+      "high": 1,
+      "impairment": "Impaired",
+      "treatment": "Takeback or exit refinancing",
+      "figure_id": "F20"
+    },
+    {
+      "class": "3B",
+      "name": "ABL FILO",
+      "low": 1,
+      "high": 1,
+      "impairment": "Impaired",
+      "treatment": "Takeback or exit refinancing",
+      "figure_id": "F20"
+    },
+    {
+      "class": "4",
+      "name": "Secured notes",
+      "low": 0,
+      "high": 0.076,
+      "impairment": "Impaired",
+      "treatment": "Diluted equity and subscription rights",
+      "figure_id": "F21"
+    },
+    {
+      "class": "5",
+      "name": "General unsecured",
+      "low": 0.01,
+      "high": 0.025,
+      "impairment": "Impaired",
+      "treatment": "GUC Recovery Pool",
+      "figure_id": "F23"
+    },
+    {
+      "class": "6",
+      "name": "Intercompany claims",
+      "low": null,
+      "high": null,
+      "impairment": "Unimpaired / Impaired",
+      "treatment": "Reinstate or cancel",
+      "figure_id": "F24"
+    },
+    {
+      "class": "7",
+      "name": "Intercompany interests",
+      "low": null,
+      "high": null,
+      "impairment": "Unimpaired / Impaired",
+      "treatment": "Reinstate or cancel",
+      "figure_id": "F24"
+    },
+    {
+      "class": "8",
+      "name": "PCHI interests",
+      "low": 0,
+      "high": 0,
+      "impairment": "Impaired",
+      "treatment": "Cancel, no distribution",
+      "figure_id": "F24"
+    }
+  ],
+  "valuation": {
+    "ev_low_mm": 450,
+    "ev_high_mm": 775,
+    "assumed_exit_net_debt_mm": 513,
+    "ebitda_2024_forecast_mm": 138.45,
+    "method": "Stated Moelis range; midpoint base is analyst arithmetic",
+    "figure_ids": [
+      "F25",
+      "F26",
+      "F27",
+      "F28"
+    ]
+  },
+  "assumptions": {
+    "dip_proxy_mm": 150,
+    "cash_adjustment_mm": 0,
+    "administrative_reserve_mm": 0,
+    "multiples": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      10,
+      12
+    ],
+    "ebitda_factors": [
+      0.75,
+      1,
+      1.25
+    ],
+    "tolerance": 1e-08,
+    "basis": "Single pooled estate, principal-only, ABL paid before notes; no collateral allocation. DIP uses commitment as claim proxy. Zero cash and administrative reserve are controls, not verified facts. Class 5 covers the two bond tranches only."
+  },
+  "liquidation": {
+    "net_proceeds_mm": null,
+    "recoveries": null,
+    "status": "unverified",
+    "reason": "S01 Exhibit E intentionally omitted. Kroll returned HTTP 403. No liquidation numbers inferred."
+  },
+  "unverified": [
+    "Petition ABL split",
+    "Actual allowed DIP claims",
+    "Full Class 5 denominator",
+    "Cash available to estates",
+    "Administrative and priority claim amounts",
+    "Outstanding Anagram intercompany loan",
+    "Petition finance lease claims",
+    "Liquidation values",
+    "Final-plan recovery table and actual distributions"
+  ],
+  "timeline": [
+    {
+      "date": "2023-01-17",
+      "event": "Petition and RSA",
+      "detail": "Voluntary filing and support agreement",
+      "source_id": "S05",
+      "section": "Item 1.01",
+      "figure_ids": [
+        "F01",
+        "F33"
+      ]
+    },
+    {
+      "date": "2023-01-18",
+      "event": "First-day relief and interim DIP",
+      "detail": "Interim cash management order, docket 108; initial DIP capacity 75 USD mm",
+      "source_id": "S01",
+      "section": "IV.B.1 and V.A",
+      "figure_ids": [
+        "F29",
+        "F31",
+        "F32"
+      ]
+    },
+    {
+      "date": "2023-03-03",
+      "event": "Final DIP approval",
+      "detail": "Commitment 150 USD mm; SOFR + 10%; 8% upfront and 0.5% undrawn annual; five-month original term subject to extension",
+      "source_id": "S01",
+      "section": "V.A, p.27",
+      "figure_ids": [
+        "F29",
+        "F30",
+        "F31"
+      ]
+    },
+    {
+      "date": "2023-04-04",
+      "event": "Initial plan",
+      "detail": "Initial plan and disclosure statement",
+      "source_id": "S01",
+      "section": "Cover and I",
+      "figure_ids": [
+        "F39"
+      ]
+    },
+    {
+      "date": "2023-07-21",
+      "event": "Third amended plan",
+      "detail": "Selected analytical vintage; recovery and valuation update",
+      "source_id": "S04",
+      "section": "Cover; III.B",
+      "figure_ids": [
+        "F34"
+      ]
+    },
+    {
+      "date": "2023-08-31",
+      "event": "Fourth amended plan",
+      "detail": "Docket 1672; later than analytical vintage",
+      "source_id": "S06",
+      "section": "Item 1.03",
+      "figure_ids": [
+        "F35"
+      ]
+    },
+    {
+      "date": "2023-09-06",
+      "event": "Confirmation",
+      "detail": "Docket 1711; confirmation is not emergence",
+      "source_id": "S06",
+      "section": "Item 1.03",
+      "figure_ids": [
+        "F35"
+      ]
+    },
+    {
+      "date": "2023-10-12",
+      "event": "Emergence",
+      "detail": "Plan effective; old common canceled",
+      "source_id": "S07",
+      "section": "Explanatory Note",
+      "figure_ids": [
+        "F36"
+      ]
+    }
+  ]
+}

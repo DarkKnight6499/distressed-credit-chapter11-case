@@ -1,0 +1,85 @@
+{
+  "retrieved": "2026-11-09",
+  "method": "Manual transcription from primary HTML documents opened using web tool; no shell fetch performed",
+  "snapshot": "case_inputs.json",
+  "sha256": "d9481d7fb4df7c37772b2ff2ee75e2268a53429728dd95be77ab93f022958a44",
+  "sources": {
+    "S01": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1592058/000119312523091600/d470560dex992.htm",
+      "document": "Disclosure statement, April 4, 2023",
+      "retrieved": "2026-11-09",
+      "status": "opened via web tool"
+    },
+    "S02": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1592058/000119312523191776/d520761dex992.htm",
+      "document": "Disclosure statement supplement, July 21, 2023",
+      "retrieved": "2026-11-09",
+      "status": "opened via web tool"
+    },
+    "S03": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1592058/000119312523191776/d520761dex993.htm",
+      "document": "Cleansing materials, updated projections and valuation, July 24, 2023",
+      "retrieved": "2026-11-09",
+      "status": "opened via web tool"
+    },
+    "S04": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1592058/000119312523191776/d520761dex991.htm",
+      "document": "Third amended plan, July 21, 2023",
+      "retrieved": "2026-11-09",
+      "status": "opened via web tool"
+    },
+    "S05": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1592058/000119312523009847/d643228d8k.htm",
+      "document": "Petition and RSA 8-K, January 17, 2023",
+      "retrieved": "2026-11-09",
+      "status": "opened via web tool"
+    },
+    "S06": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1592058/000095014223002340/eh230396430_8k.htm",
+      "document": "Confirmation 8-K, September 6, 2023",
+      "retrieved": "2026-11-09",
+      "status": "opened via web tool"
+    },
+    "S07": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1592058/000095014223002592/eh230409100_8k.htm",
+      "document": "Emergence 8-K, October 12, 2023",
+      "retrieved": "2026-11-09",
+      "status": "opened via web tool"
+    },
+    "S08": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1592058/000119312520207189/d43127dex41.htm",
+      "document": "Floating-rate note indenture, July 30, 2020",
+      "retrieved": "2026-11-09",
+      "status": "opened via web tool"
+    },
+    "S09": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1592058/000119312522199601/d946559dex101.htm",
+      "document": "Seventh ABL amendment, July 19, 2022",
+      "retrieved": "2026-11-09",
+      "status": "opened via web tool"
+    },
+    "S10": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1592058/000095017024037962/ck0001592058-20221231.htm",
+      "document": "FY2022 10-K, filed March 28, 2024; terms cross-check only",
+      "retrieved": "2026-11-09",
+      "status": "opened via web tool"
+    }
+  },
+  "failed": [
+    {
+      "url": "https://cases.ra.kroll.com/PCHI/",
+      "reason": "HTTP 403 Forbidden via web tool; docket-dependent liquidation work stopped"
+    }
+  ],
+  "missing": [
+    "Petition ABL split",
+    "Actual allowed DIP claims",
+    "Full Class 5 denominator",
+    "Cash available to estates",
+    "Administrative and priority claim amounts",
+    "Outstanding Anagram intercompany loan",
+    "Petition finance lease claims",
+    "Liquidation values",
+    "Final-plan recovery table and actual distributions"
+  ]
+}

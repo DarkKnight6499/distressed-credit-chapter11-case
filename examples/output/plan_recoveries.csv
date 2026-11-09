@@ -1,0 +1,10 @@
+class,name,low,high,impairment,treatment,figure_id
+1,Other secured,1,1,Unimpaired,"Cash, reinstatement or permitted alternative",F20
+2,Other priority,1,1,Unimpaired,Cash or statutory treatment,F20
+3A,ABL revolver,1,1,Impaired,Takeback or exit refinancing,F20
+3B,ABL FILO,1,1,Impaired,Takeback or exit refinancing,F20
+4,Secured notes,0,0.076,Impaired,Diluted equity and subscription rights,F21
+5,General unsecured,0.01,0.025,Impaired,GUC Recovery Pool,F23
+6,Intercompany claims,,,Unimpaired / Impaired,Reinstate or cancel,F24
+7,Intercompany interests,,,Unimpaired / Impaired,Reinstate or cancel,F24
+8,PCHI interests,0,0,Impaired,"Cancel, no distribution",F24

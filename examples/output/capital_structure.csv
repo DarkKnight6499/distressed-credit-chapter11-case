@@ -1,0 +1,8 @@
+id,tranche,class,petition_principal_mm,model_claim_mm,rank,maturity,coupon,security,source_ids
+abl_total,ABL aggregate (control only),3A/3B,424.3,,,2026-02-19,See revolver and FILO,First lien on ABL collateral; second lien on other collateral,"['F02', 'F07']"
+revolver,ABL revolver,3A,,407.282561,1,2026-02-19,Adjusted Term SOFR + 1.50%-1.75% or ABR + 0.50%-0.75%,ABL collateral first lien; other collateral second lien,"['F07', 'F14', 'F16', 'F17']"
+filo,ABL FILO,3B,,17.1105,2,2026-02-19,Adjusted Term SOFR + 2.75% or ABR + 1.75%,First-in last-out within ABL; model places after revolver,"['F07', 'F15', 'F16', 'F18']"
+secured_float,Secured floating notes,4,161.7,161.7,3,2025-07-15,6m LIBOR + 5.00%; LIBOR floor 0.75%,Other collateral first lien; ABL collateral second lien; pari passu with fixed notes,"['F03', 'F08', 'F13']"
+secured_fixed,Secured fixed notes,4,750,750,3,2026-02-15,8.750%,Same liens and rank as floating notes,"['F04', 'F09', 'F12']"
+unsecured_2023,Unsecured 2023 notes,5,22.9,22.9,4,2023-08-15,6.125%,Senior unsecured; model pari passu with unsecured 2026 notes,"['F05', 'F10']"
+unsecured_2026,Unsecured 2026 notes,5,92.3,92.3,4,2026-08-01,6.625%,Senior unsecured,"['F06', 'F11']"
